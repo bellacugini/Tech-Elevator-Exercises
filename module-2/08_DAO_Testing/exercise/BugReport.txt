@@ -1,0 +1,70 @@
+Bug 1
+-----
+Test that demonstrates problem:
+getTimesheetsByEmployeeId_returns_list_of_all_timesheets_for_employee()
+
+Expected output:
+2
+
+Actual output:
+1
+
+How did you fix this bug?
+
+Changed:
+if (results.next()) {
+    Timesheet timesheet = mapRowToTimesheet(results);
+    timesheets.add(timesheet);
+}
+Statement to:
+while (results.next()) {
+    Timesheet timesheet = mapRowToTimesheet(results);
+    timesheets.add(timesheet);
+}
+
+
+Bug 2
+-----
+Test that demonstrates problem:
+getTimesheetsByProjectId_returns_list_of_all_timesheets_for_project()
+
+Expected output:
+3
+
+Actual output:
+2
+
+How did you fix this bug?
+
+Changed:
+    "WHERE project_id = ? "
+in sql definition to:
+    "WHERE employee_id = ? "
+
+Bug 3
+-----
+Test that demonstrates problem:
+updated_timesheet_has_expected_values_when_retrieved()
+
+Expected output:
+false
+
+Actual output:
+true
+
+How did you fix this bug?
+Added isBillable to the updateTimesheet jdbcTemplate.update() and added billable to the sql definition
+
+Bug 4
+-----
+Test that demonstrates problem:
+getBillableHours_returns_correct_total()
+
+Expected output:
+0.0
+
+Actual output:
+2.5
+
+How did you fix this bug?
+Added billable = true to the where statement

@@ -1,0 +1,3 @@
+{
+  "/auctions/:id/bids": "/bids?auctionId=:id"
+}

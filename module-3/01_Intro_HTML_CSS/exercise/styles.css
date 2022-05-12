@@ -1,0 +1,198 @@
+body {
+    background-color: black;
+    text-align: center;
+    color:  darkred;
+    margin: 40px;
+    width: auto;
+    padding: 60px;
+    /* font-family: 'Bangers';
+    font-family: 'Luckiest Guy'; 
+    font-family: 'Permanent Marker';
+    font-family: 'Rock Salt';
+    font-family: 'Reggae One';
+    font-family: 'Sedgwick Ave';
+    font-family: 'Koulen';
+    */
+}
+
+body header img {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  align-content: center;
+}
+
+body header p {
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Bangers';
+    font-weight: lighter;
+    font-stretch: ultra-expanded;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    /* white-space: nowrap;
+    overflow-x: auto; */
+    display: inline-block;
+    margin-left: 20px; 
+    text-align:center;
+    
+}
+
+body header h1 {
+    text-transform: uppercase;
+    font-family: 'Faster One', cursive;
+    font-size: 80px;
+    line-height: auto; 
+    height: auto; 
+    border: 10px ridge darkred;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: silver;
+}
+
+main{ 
+  margin: 60px;
+  padding: 20px;
+}   
+
+main h2{
+  font-family: 'Bangers';
+  font-weight: lighter;
+  font-stretch: ultra-expanded;
+    text-align: left;
+    /* padding-bottom: 20px; */
+    padding-top: 30px;
+    font-size: 30px;
+    /* text-decoration: underline overline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: silver; */
+    width: auto;
+}
+
+#facts-section {
+  text-align: left;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#facts-section h2 {
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+ #facts-section.table, th, td {
+    border: 1px solid;
+    color: silver;
+    background-color: darkred;
+    width: 1900px;
+    text-align: left;
+    line-height: 26px;
+    font-size: 20px;
+    font-stretch:ultra-expanded;
+  } 
+  
+  #facts-section.th {
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  #facts-section.td{
+      line-height: 30px;
+      font-style: normal;
+
+  }
+/* 
+  #facts-section.table{
+      font-stretch: wider;
+      border: 2px solid;
+      color: white;
+      width: auto;
+      text-align: left;
+      height: auto;
+      font-size: 20px;
+      padding: 7px;
+      margin: 20px;
+  } */
+
+  #quotes-section{
+    text-align: left;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#quotes-section blockquote {
+    font-family:  'Space Mono', monospace;
+    line-height: 35px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#quotes-section p {
+    font-family: 'Bangers';
+    text-align: center;
+    color: darkred;
+    margin: inherit;
+
+    /* font-style: bold;  */
+    font-size: 325x;
+    padding-top: 15px;
+    padding-bottom: 15px;;
+    background-color: silver;
+}
+
+#quotes-section h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    
+}
+
+#links-section{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: silver;
+    padding-top: 10px;
+    width:auto;
+}
+
+#links-section.a{
+    font-weight: bold;
+        list-style:url();
+}
+
+#links-section h2 {
+    padding-top: 10px;
+    background-color: silver;
+    color: darkred;
+    width: auto;
+    
+}
+
+  ul {
+    width: inherit;
+    padding:inherit;    
+  }
+  
+  ul li {
+    background: darkred;
+    color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+  
+  ul li {
+    background: darkred;
+    color: black;
+    margin: 5px;
+  }
+
+  ul li a {
+    color: silver;
+  }
